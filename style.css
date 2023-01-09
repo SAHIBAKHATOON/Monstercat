@@ -1,0 +1,683 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+    background-image: url(https://cdn.monstercat.com/background-tile.webp);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    overflow-x: hidden;
+}
+ .point{
+    background-image: url(/monster.webp);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -1%;
+    left: -1%;
+    background-position: center;
+    background-size: cover;
+    filter: blur(5px) brightness(38%);
+    z-index: -1;
+ }
+.logo{
+    margin-top: -170px;
+    margin-left: 70px;
+    position: fixed;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+}
+ .togglemenu{
+    float: right;
+     margin-top: -500px; 
+    position: relative;
+    left: 90%;
+    position: fixed;
+ }
+.togglemenu ul li{
+    color: white;
+     margin-top: 20px; 
+     display: flex;
+}
+.togglemenu ul li i{
+    font-size: 22px;
+}
+.bar i{
+    color: #fff;
+    margin-top: -100px;
+}
+.togglemenu i{
+    font-size: 20px;
+}
+  .parentone{
+    max-width: 1500px;
+    margin-top: -170px;
+    position: fixed;
+    margin-left: 90px;
+    height: 80px;
+    background-color: #000;
+}
+.same p{
+    color: #fff;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 65%;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.same p span{
+    color: #50A584;
+}
+.parenttwo{
+    max-width: 1100px;
+    margin-top: 200px;
+}
+.name{
+    width: 450px;
+    height: 450px;
+     margin-top: 30px; 
+     display: flex;
+     position: relative;
+     left: 20%;
+     background-image:  url(./monster.webp);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+}
+.magic{
+    color: #fff;
+    margin-top: 160px;
+    width: 200px;
+    margin: 0px auto;
+    font-size: 25px;
+    position: absolute;
+    left: 130%;
+    margin-top: 150px;
+     -webkit-text-stroke-width: 1.3px; 
+    -webkit-text-stroke-color: #f1f1f1;  
+     -webkit-text-fill-color: transparent; 
+    font-weight: 100;
+    font-size: 30px;
+}
+.bar1{
+    display: none;
+    color: #fff;
+}
+.bar{
+    display: block;
+}
+    .magic span{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #f1f1f1;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+    font-size: 30px;
+}
+ .btn1{
+    height: 55px;
+    width: 220px;
+    border: 1px solid #50A584;
+    background-color: #50A584;
+    text-align: center;
+    color: #fff;
+    margin-top: 300px;
+    font-size: 20px;
+    position: absolute;
+    left: 125%;
+    padding-top: 16px;
+}
+.btn1:hover{
+    color: #000;
+    background-color: #fff;
+}
+.btn1 i{
+    font-size: 20px;
+    margin-right: 8px;
+    margin-top: 7px;
+}
+.btn2{
+    height: 55px;
+    width: 190px;
+    padding-top: 16px;
+    border: 1px solid #fff;
+    text-align: center;
+    margin-left: 10px;
+    color: #fff;
+    margin-top: 300px;
+    margin-left: 20px;
+    font-size: 22px;
+    position: absolute;
+    left: 175%;
+}
+.btn2:hover{
+    background-color: #fff;
+ color: #000;
+}
+.btn2 i{
+    font-size: 20px;
+    margin-right: 8px;
+    margin-top: 7px;
+} 
+.parentfour{
+    max-width: 1000px;
+} 
+.text{
+    margin-top: 150px;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #f1f1f1;
+    font-weight: 500;
+    max-width: 850px;
+}
+.parentfive{
+    max-width: 1000px;
+    display: flex;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 40px;
+    display: flex;
+}
+.parentfive ul li{
+    display: flex;
+    margin-top: 20px;
+    text-decoration: none;
+    margin-left: 80px;
+}
+.parentfive ul li i{
+    font-size: 22px;
+    margin-right: 50px;
+}
+.border span{
+    margin-left: -40px;
+    padding-right: 10px;
+}
+.border{
+border: 1px solid #fff;
+max-width: 150px;
+height: 60px;
+color: #fff;
+}
+.border i{
+    margin-left: -40px;
+}
+ .border2{
+    border: 1px solid #fff;
+    max-width: 80px;
+    height: 60px;
+    }
+    .border2 i{
+        margin-left: -50px;
+    }
+.border3{
+  border: 1px solid #fff;
+max-width: 80px;
+ height: 60px;
+  }
+  .border3 i{
+    margin-left: -50px;
+  }
+  .border4{
+ border: 1px solid #fff;
+ max-width: 80px;
+ height: 60px;
+    }
+    .border4 i{
+        margin-left: -50px;
+    }
+.border5{
+ border: 1px solid #fff;
+ max-width: 80px;
+ height: 60px;
+}
+.border5 i{
+    margin-left: -50px;
+}
+.parentsix{
+    max-width: 1000px;
+}
+.text2{
+    font-size: 50px;
+    margin-top: px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #fff;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #f1f1f1;
+    font-weight: 500;
+    max-width: 560px;
+}
+.one{
+    max-width: 1000px;
+display: inline-block;
+justify-content: space-between;
+position: relative;
+left: 30%;
+font-size: 20px;
+color: #fff;
+}
+.one i{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.one nav{
+    float: right;
+     margin-left: 700px; 
+}
+.one p{
+    margin-top: 30px;
+}
+.parentseven{
+    max-width: 1500px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.parentseven h1{
+    color: #fff;
+margin-left: 160px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.backgroundvideo{
+margin-left: 170px;
+}
+.parenteight{
+    max-width: 1000px;
+    position: relative;
+    left: 15%;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+.bell{
+    max-width: 350px;
+     margin-left: 40px; 
+}
+.parenteight input{
+    border: none;
+    background-color: #000;
+}
+.mail p{
+     font-size: 20px; 
+}
+.mail span{
+    color: lightgray;
+}
+.parentnine{
+    max-width: 900px;
+    margin: 30px auto;
+     display: flex; 
+     column-gap: 60px;
+    color: white;
+     text-align: center;
+}
+.icons1 ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 220px;
+}
+.icons1 ul li{
+    margin-left: -10px;
+    list-style-type: none;
+    margin-top: -50px;
+
+}
+.icons1 ul li i{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.para1{
+    color: white;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.line{
+    color: #fff;
+    border: 2px solid #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    max-width: 150px;
+    margin-top: 10px;
+}
+.parentten{
+    max-width: 1000px;
+    margin-left: 120px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+.let p{
+    margin-bottom: 40px;
+}
+ 
+@media only screen and (max-width: 600px){
+.logo{
+margin-top: -40px;
+margin-left: 10px;
+}
+.logo img{
+    height: 30px;
+    width: 40px;
+}
+.point{
+    max-width: 330px;
+}
+.togglemenu p{
+    display: block;
+    color: #fff;
+}
+.bar i{
+    display: block;
+    margin-top: -300px;
+    color: #fff;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.bar1{
+    display: block;
+    color: #fff;
+    margin-top: -30px;
+    margin-left: 280px;
+}
+ .name{
+    max-width: 290px;
+    height: 300px;
+    margin-left: -60px;
+    margin-top: -120px;
+} 
+.parenttwo ul li{
+    display: none;
+}
+.same{
+    margin-top: -150px;
+    margin-left: 20px;
+}
+.magic{
+    margin-top: 380px;
+    margin-left: -360px;
+    font-size: 25px;
+}
+.magic span{
+    font-size: 20px;
+}
+.btn1{
+    margin-top: 500px;
+    margin-left: -370px;
+    height: 40px;
+    width: 150px;
+    font-size: 17px;
+}
+.btn2{
+    margin-top: 500px;
+    margin-left: -330px;
+    height: 40px;
+    width: 90px;
+    font-size: 15px;
+}
+.same p{
+    position: absolute;
+    top: 50%;
+    transform: rotate(360deg);
+    margin-top: 20px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.text{
+    max-width: 300px;
+    font-size: 23px;
+    margin-left: 10px;
+}
+.parentfour{
+    margin-top: 320px;
+}
+.parentfour ul li{
+    width: 170px;
+}
+.border span{
+    font-size: 10px;
+    margin-top: 5px;
+    margin-left: -47px;
+}
+.border{
+    width: 60px;
+     margin-left: 30px; 
+}
+.border i{
+    margin-left: -35px;
+}
+.border2{
+    width: 50px;
+}
+.border2 i{
+    margin-left: -20px;
+}
+.border3{
+    width: 50px;
+}
+.border3 i{
+    margin-left: -20px;
+}
+.border4{
+    width: 50px;
+}
+.border4 i{
+    margin-left: -20px;
+}
+.border5{
+    width: 50px;
+}
+.border5 i{
+    margin-left: -20px;
+}
+.border6{
+    width: 50px;
+}
+.border6 i{
+    margin-left: -20px;
+}
+.parentfive{
+    max-width: 300px;
+    margin-left: -5px;
+}
+.parentfive ul li{
+    height: 20px;
+    width: 20px;
+    margin-left: 40px; 
+}
+.parentfive ul li i{
+    font-size: 18px;
+}
+.text2{
+    max-width: 300px;
+    font-size: 25px;
+    margin-left: -40px;
+}
+.one{
+    width: 300px;
+    font-size: 14px;
+    margin-left: -120px;
+}
+.one i{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.one p{
+    margin-left: 20px;
+}
+.one span{
+    margin-left: 20px;
+}
+.one nav {
+    margin-top: -22px;
+    margin-left: -90px;
+}
+nav i{
+    margin-left: -140px;
+}
+.parentseven h1{
+    max-width: 300px;
+    margin-left: 10px;
+}
+.backgroundvideo iframe{
+    height: 200px;
+    max-width: 300px;
+    margin-left: -160px;
+    margin-bottom: 50px;
+}
+.parenteight{
+     max-width: 280px; 
+    display: inline-block;
+     margin-left: -75px; 
+    font-size: 16px;
+}
+.ring{
+    margin-left: 40px;
+}
+  .bell{
+     max-width: 180px;
+}  
+.mail p{
+    max-width: 290px;
+    font-size: 14px;
+}
+.mail{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.parentnine{
+    max-width: 300px;
+    margin-left: -200px;
+}
+.icons1 ul li{
+    margin-top: 10px;
+    max-width: 300px;
+    display: grid;
+    text-align: center;
+    
+}
+.icons1 ul li i{
+    font-size: 13px;   
+}
+.para1{
+    color: white;
+     max-width: 300px; 
+    margin-left: 30px;
+    font-size: 12px;
+    margin-top: 30px;
+}
+.let{
+    max-width: 300px;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: -100px;
+     
+}
+}
+ @media only screen and (min-width: 580px) and (max-width: 1024px){
+.logo img{
+    margin-left: -70px;
+    margin-top: -30px;
+    width: 80px;
+}
+    .name{
+        width: 780px;
+        height: 900px;
+        margin-left: -70px;
+    }
+    .same{
+        margin-left: -140px;
+    }
+    .togglemenu{
+        margin-left: -10px;
+        margin-top: -970px;
+    }
+    .parenttwo ul li{
+        display: none;
+    }
+    .bar1{
+        width: 1000px;
+        display: block;
+        margin-left: 800px;
+        margin-top: -40px;
+    }
+    .bar1 i{
+        font-size: 27px;
+    }
+    .magic{
+        margin-top: 950px;
+        margin-left: -1020px;
+        font-weight: bold;
+    }
+     .btn1{
+        margin-top: 1150px;
+        margin-left: -1020px;
+    }
+    .btn2{
+        margin-top: 1150px;
+        margin-left: -1150px;
+    } 
+    .parentfour{
+        margin-top: 400px;
+        margin-left: -100px;
+    }
+    .parentfive{
+        margin-left: 50px;
+    }
+    .one{
+        max-width: 850px;
+        margin-left: -170px;
+    }
+   .parentsix{
+    margin-top: 50px;
+   }
+   .text2{
+    font-weight: bold;
+    margin-left: -70px;
+   }
+   .parentseven h1{
+    margin-left: 90px;
+    font-size: 50px;
+   }
+   .backgroundvideo iframe{
+    width: 800px;
+    margin-left: -90px;
+   }
+   .parenteight{
+    margin-left: -70px;
+    font-weight: bold;
+   }
+   .bell{
+    margin-left: 20px;
+   }
+   .bell  span{
+    display: inline-block;
+   }
+   .ring{
+    margin-right: 20px;
+   }
+   .para1{
+    margin-left: 40px;
+   }
+   .icons1{
+    margin-left: 240px;
+   }
+   .let{
+    width: 900px;
+    margin-left: -80px;
+   }
+
+}
